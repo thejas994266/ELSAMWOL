@@ -1,14 +1,14 @@
 {
-  "name": "Pikachu-Bot",
+  "name": "ELSAMWOL",
   "version": "2.0.0",
-  "description": "Pikachu whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
-  "main": "./pikachu/bot.js",
+  "description": "ElsaMwol whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
+  "main": "./Elsa/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ameer-kallumthodi/pikachu.git"
+    "url": "git+https://github.com/SKDRAGON1/ELSAMWOL.git"
   },
   "keywords": [
     "WhatsApp",
@@ -16,10 +16,10 @@
     "Bot"
   ],
   "author": "AsenaDev / Yusuf Usta",
-  "developer": "Ameer suhail / @phaticusthiccy",
+  "developer": "Ajnas Sk / @phaticusthiccy",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/ameer-kallumthodi/pikachu/issues"
+    "url": "https://github.com/SKDRAGON1/ELSAMWOL/issues"
   },
   "homepage": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated#readme",
   "dependencies": {
