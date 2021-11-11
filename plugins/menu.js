@@ -21,90 +21,9 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 
 
 𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 *AJNAS SK* 𝐛𝐨𝐭.
-            *ELSWOL*
+            *ELSAMWOL*
 
-■□■□■□■□■□■□■□■□■□■□
-♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -song <text>
-🍙𝙐𝙨𝙚➜ Downloads song for you.
-⚠️.song  baby love
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -video <yt link>
-🍙𝙐𝙨𝙚➜ Downloads video from YouTube link.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -insta <link>
-🍙𝙐𝙨𝙚➜   Downloads content from instagram.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -yt<text>
-🍙𝙐𝙨𝙚➜   Gives you YT links.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -show <show name>
-🍙𝙐𝙨𝙚➜   Get info related to tv series and shows.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -gif 
-🍙𝙐𝙨𝙚➜ Converts video to gif.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -tomp3 
-🍙𝙐𝙨𝙚➜ Converts video into audio.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -say <text>
-🍙𝙐𝙨𝙚➜ Converts text into voice.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -img <text>
-🍙𝙐𝙨𝙚➜ It sends image from google.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -trt <language code>
-🍙𝙐𝙨𝙚➜ Translate the text you tag.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wiki <text>
-🍙𝙐𝙨𝙚➜ It sends Wikipedia result.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -lyric <text>
-🍙𝙐𝙨𝙚➜ Finds the lyrics of the song.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -covid <country code>
-🍙𝙐𝙨𝙚➜ Send the covid stats of your country.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -weather <city>
-🍙𝙐𝙨𝙚➜ Tells you about the weather of your place.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -removebg 
-🍙𝙐𝙨𝙚➜ Removes the background of tge image.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ocr
-🍙𝙐𝙨𝙚➜ Finds the text written on the image.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wallpaper
-🍙𝙐𝙨𝙚➜ It sends you random wallpaper.
-
-■□■□■□■□■□Pikachu■□■□■□■□■□
-♟ *𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -joke 
-🍙𝙐𝙨𝙚➜ It sends a random joke.
- 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -meme <text>
-🍙𝙐𝙨𝙚➜ Cations the image into a meme.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -quote 
-🍙𝙐𝙨𝙚➜ It sends a random quote.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ss <website link>
-🍙𝙐𝙨𝙚➜ It sends the screenshot of the website.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -changesay <text>
-🍙𝙐𝙨𝙚➜ Converts text into changesay meme image.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -trumpsay
-🍙𝙐𝙨𝙚➜ Convert text into Trump's tweet.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -compliment 
-🍙𝙐𝙨𝙚➜ Gives you a compliment.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -bitly <link>
-🍙𝙐𝙨𝙚➜   Shorten your link.
-
+ text  on 
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -dict 
 🍙𝙐𝙨𝙚➜   Dictionary [-dict en;anime]
 
@@ -134,7 +53,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 🍙𝙐𝙨𝙚➜ Converts text into glowing sticker.
 ⚠️ex  attp Elsa Mwol
 ■□■□■□■□■□■□■□■□■□■□
-═════💢ELSAMWOL💢═════
+
 ▣▣▣▣▣▣▣▣▣✩ᴀᴊɴᴀꜱ ꜱᴋ✩▣▣▣▣▣▣▣▣▣▣▣
 
 `}) 
