@@ -10,18 +10,18 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     var r_text = new Array ();
     
     
-    r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/2016/03/Pikachu-wallpaper-HD-dowload.jpg";
+    r_text[0] = "https://i.imgur.com/28KsnoW.mp4";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️Ameer Suhail✨️━━━━━⛦
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️AJNAS SK✨️━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 ✩ᴀᴊɴᴀꜱ ꜱᴋ✩ 𝐛𝐨𝐭.
-            *𝐄𝐋𝐒𝐀 𝐌𝐖𝐎𝐋࿐*
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 𝐄𝐥𝐬𝐚 𝐌𝐰𝐨𝐥 𝐛𝐨𝐭.
+      *𝐄𝐋𝐒𝐀 𝐌𝐖𝐎𝐋࿐*
 
 ╭────────────────╮
              ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs
@@ -117,7 +117,6 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 ╰────────────────
 
 
-═════💢ELSA MWOL💢═════
 
 
 `}) 
