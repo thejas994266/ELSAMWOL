@@ -8,7 +8,7 @@ const Lang = Language.getString('wallpaper');
 Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the bot"}, (async (message, match) => {
 
     var skl = await axios.
-    r_text[0] = "https://i.imgur.com/fThvcC6.jpeg";
+    get(r_text[0] = "https://i.imgur.com/fThvcC6.jpeg";
 
     r_text[1] = "https://i.imgur.com/4Otbuws.png";
 
@@ -168,7 +168,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
     r_text[79] = "https://i.ibb.co/DbMk8nL/957395cbf134.jpg";
 
-    r_text[80] = "https://i.ibb.co/LQ4WJMR/f13a01cc7301.jpg";", { responseType: 'arraybuffer' })
+    r_text[80] = "https://i.ibb.co/LQ4WJMR/f13a01cc7301.jpg";)", { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*ELSAMAOL created by ✩ᴀᴊɴᴀꜱ ꜱᴋ✩*
 *Creator number : wa.me/994407231657?text=HI%20ELSAMWOL%20✩ᴀᴊɴᴀꜱ ꜱᴋ✩.%20*
