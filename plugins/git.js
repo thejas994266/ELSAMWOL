@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
     var skl = await axios.get("https://i.imgur.com/FxFHZRh.jpeg", { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*ᴇʟꜱᴀᴍᴡᴏʟ created by ✩ᴀᴊɴᴀꜱ ꜱᴋ✩*
-*Creator number : wa.me/994407231657?text=HI%20ELSA MWOL%20Suhail.%20*
+*Creator number : wa.me/994407231657?text=HI%20ELSA MWOL%20✩ᴀᴊɴᴀꜱ ꜱᴋ✩.%20*
 
 *Bot setting video : https://youtu.be/L8E4enqfYik*
 
