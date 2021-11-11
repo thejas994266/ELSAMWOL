@@ -5,7 +5,7 @@
     <summary>⏬<b>CLICK ME TO VIEW⏬</b></summary>
 
   
-<a href="https://bit.ly/3lC8I7t"><img src="NLP.gif" >
+<a href="https://bit.ly/3lC8I7t"><img src="./Elsa/NLP.gif" >
   <a  src="https://fontmeme.com/permalink/211005/637ae3b7500558dc9ef1521af68a6984.png" alt="grand-theft-auto-font" height="1000" width="1000" border="100"></a>
 
   # <u> SETUP <u>
