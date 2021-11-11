@@ -8,7 +8,19 @@ const Lang = Language.getString('wallpaper');
 Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (message, match) 
     
     
+   var r_text = new Array ();
+
     
+
+    
+
+    r_text[0] = "https://i.imgur.com/28KsnoW.mp4";
+
+    
+
+    
+
+    var i = Math.floor(1*Math.random()) 
 
 
     
