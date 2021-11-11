@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     
     
 
-    var r_text = new Array ();
+    r_text = new Array ();
     
     
     r_text[0] = "https://i.imgur.com/fThvcC6.jpeg";
