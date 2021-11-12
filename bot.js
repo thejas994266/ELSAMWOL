@@ -139,7 +139,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ ᴇʟꜱᴀᴍᴡᴏʟ working!')
+            chalk.green.bold('✅ 𝐄𝐋𝐒𝐀 𝐌𝐖𝐎𝐋࿐ working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -212,7 +212,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
+                await conn.sendMessage(conn.user.jid, '*ElsaStarted*', MessageType.text);
                 }
             }
             else {
