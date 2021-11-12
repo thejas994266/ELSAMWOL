@@ -10,7 +10,7 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 
-Amal.addCommand({pattern: 'git ?(.*)', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Asena.addCommand({pattern: 'git ?(.*)', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
