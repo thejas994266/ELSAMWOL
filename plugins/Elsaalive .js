@@ -88,16 +88,16 @@ var i = Math.floor(31*Math.random())
 		   var a_plk = new Array ();
 
         a_plk[0] = "https://i.imgur.com/gopKACJ.jpeg";
-        a_plk[1] = "https://mcdn.wallpapersafari.com/medium/20/69/juFNVl.jpg";
-        a_plk[2] = "https://cdn.wallpapersafari.com/51/57/WXxpck.jpg";
-        a_plk[3] = "https://cdn.wallpapersafari.com/72/42/nAdV2j.jpg";
-        a_plk[4] = "https://cdn.wallpapersafari.com/55/85/n5cLrp.jpg";
-        a_plk[5] = "https://i.imgur.com/ekLVqnK.jpeg";
-        a_plk[6] = "https://mcdn.wallpapersafari.com/medium/55/25/KrvA7S.jpg";
-        a_plk[7] = "https://images.pexels.com/photos/8294554/pexels-photo-8294554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
-        a_plk[8] = "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
-        a_plk[9] = "https://wallpapercave.com/wp/wp2957455.jpg";
-        a_plk[10] = "https://i.imgur.com/NVyqjMU.png";
+        a_plk[1] = "https://i.imgur.com/q3Jp4Jx.png";
+        a_plk[2] = "https://i.imgur.com/Ryn6cqu.jpeg";
+        a_plk[3] = "https://i.imgur.com/D4bP56N.jpeg";
+        a_plk[4] = "https://i.imgur.com/AcP7hl3.png";
+        a_plk[5] = "https://i.imgur.com/lqd6B9N.jpeg";
+        a_plk[6] = "https://i.imgur.com/dZhTo2Y.jpeg";
+        a_plk[7] = "https://i.imgur.com/q3Jp4Jx.png";
+        a_plk[8] = "https://i.imgur.com/9RdFecz.png";
+        a_plk[9] = "https://i.imgur.com/Ryn6cqu.jpeg";
+        a_plk[10] = "https://i.imgur.com/ADeUg71.jpeg";
 	 var p = Math.floor(11*Math.random())
 
         var plk_alive = await axios.get(`${a_plk[p]}`, { responseType: 'arraybuffer' })
