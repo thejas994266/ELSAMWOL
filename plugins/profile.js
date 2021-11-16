@@ -22,6 +22,27 @@ Asena.addCommand({pattern: 'leave$', fromMe: true, dontAddCommandList: true, des
         await message.client.groupLeave(message.jid);
     }
 }));
+Asena.addCommand(
+  { pattern: "setstatus ?(.*)", fromMe: true, desc: "set status." },
+  async (message, match) => {
+    if (!message.reply_message)
+      return message.sendMessage("*Reply to a message!*");
+    else if (message.reply_message.image) {
+      let media = await message.reply_message.downloadMediaMessage();
+      return await message.setStatus(media, MessageType.image, {
+        caption: match,
+      });
+    } else if (message.reply_message.video) {
+      let media = await message.reply_message.downloadMediaMessage();
+      return await message.setStatus(media, MessageType.video, {
+        caption: match,
+      });
+    } else if (message.reply_message.txt) {
+      let media = message.reply_message.text;
+      return await message.setStatus(media, MessageType.text);
+    }
+  }
+);
 
 Asena.addCommand({pattern: 'pp$', fromMe: true, dontAddCommandList: true, desc: Lang.PP_DESC}, (async (message, match) => {    
     if (!message.reply_message || !message.reply_message.image) return await message.client.sendMessage(message.jid,Lang.NEED_PHOTO, MessageType.text);
@@ -81,7 +102,29 @@ Asena.addCommand({pattern: 'block ?(.*)', fromMe: true, dontAddCommandList: true
         }
     }
 }));
+Asena.addCommand(
 
+  {
+
+    pattern: "left ?(.*)",
+
+    fromMe: true,
+
+    desc: Lang.KICKME_DESC,
+
+    onlyGroup: true,
+
+  },
+
+  async (message, match) => {
+
+    await message.sendMessage(Lang.KICKME);
+
+    await message.client.groupLeave(message.jid);
+
+  }
+
+);
 Asena.addCommand({pattern: 'unblock ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.UNBLOCK_DESC}, (async (message, match) => { 
     if (Config.UNBLOCKMSG == 'default') { 
    
