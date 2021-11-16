@@ -130,9 +130,9 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         command_cmd = '🔖 *Komut:* '
         desc_cmd = '♦️*Açıklama:* _'
     } else { 
-        usage_cmd = '🐼 Example : *'
-        command_cmd = '🍀 Command : '
-        desc_cmd = '🌈 Description : '
+        usage_cmd = '🧚 Example : *'
+        command_cmd = '🥰 Command : '
+        desc_cmd = '🎭 Description : '
     }
     const msg = command_cmd + '```.devil``` \n' + t1 + '_\n' + usage_cmd + '.textdevil BOT*\n\n' +
         command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.textbear BOT*\n\n' +
